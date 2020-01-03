@@ -77,7 +77,7 @@ docker run --name mdb -d -p 27017:27017 -v ~/data:/data/db mongo
 ```
 docker exec -it mdb mongo 'mongodb://localhost:27017/mr-products'
 ```
-* Seed some prices and exist
+* Seed some prices and exit:
 ```bash
 db.prices.insertMany([
     {product_id: 13860428, value: 11.99,currency_code: 'USD'},
