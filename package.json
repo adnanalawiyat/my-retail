@@ -1,0 +1,42 @@
+{
+  "name": "my-retail",
+  "version": "0.0.1",
+  "description": "RESTful api to expose retail products",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "test": "npm run lint && nyc jasmine --config=test/jasmine.json"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongodb": "^3.4.1",
+    "morgan": "^1.9.1",
+    "nconf": "^0.10.0",
+    "prom-client": "^11.5.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.0.0",
+    "supertest": "^4.0.2",
+    "mock-require": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnanalawiyat/my-retail.git"
+  },
+  "keywords": [
+    "microservice",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Adnan Alalawiyat",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/adnanalawiyat/my-retail/issues"
+  },
+  "homepage": "https://github.com/adnanalawiyat/my-retail#readme"
+}
