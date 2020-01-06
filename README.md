@@ -131,13 +131,13 @@ npm install
 npm run test
 ```
 
-### To Run in production mode (requires Docker)
+### To Run in production mode (requires [docker](https://www.docker.com/products/docker-desktop))
 * Build the docker image:
 ```
 docker build -t myretail .
 ```
 
-* Start docker container using below command after filling the values for environment variables;
+* Start docker container using below command after filling the values for environment variables:
 
 ```
 docker run -d \
