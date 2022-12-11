@@ -9,7 +9,7 @@
     "test": "npm run lint && nyc jasmine --config=test/jasmine.json"
   },
   "dependencies": {
-    "express": "^4.16.1",
+    "express": "^4.17.3",
     "mongodb": "^3.6.9",
     "morgan": "^1.10.0",
     "nconf": "^0.11.2",
